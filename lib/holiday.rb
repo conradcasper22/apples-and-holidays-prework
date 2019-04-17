@@ -99,7 +99,7 @@ def all_winter_holiday_supplies(holiday_hash)
   #   }
   # }
   
-  
+  new_array = []
   
   # return an array of all of the supplies that are used in the winter season
   
@@ -107,7 +107,7 @@ def all_winter_holiday_supplies(holiday_hash)
   
     if season == :winter 
       
-    holidays.values.flatten
+    new_array << 
     
     
   
